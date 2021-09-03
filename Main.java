@@ -6,10 +6,11 @@ public class Main {
         Computer Computer2 = new Computer("CPS310");
         Art art = new Art("ARB201");
 
-        System.out.println(math);
-        System.out.println(science);
-        System.out.println(Computer1);
-        System.out.println(Computer2);
-        System.out.println(art);
+        String[] content = {math.content(), science.content(), Computer1.content(), Computer2.content(), art.content()};
+
+        Schedule schedule = new Schedule(content);
+
+        System.out.println(schedule);
+
     }
 }

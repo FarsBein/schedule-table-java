@@ -7,4 +7,8 @@ public abstract class Course {
     public String toString() {
         return  ">>> Course Name: '" + getCourseName() + "', Course Code: '" + getCourseCode() + "'";
     }
+
+    public String content() {
+        return String.format("%-30s | %-30s", getCourseName(), getCourseCode());
+    }
 }
