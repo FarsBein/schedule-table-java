@@ -5,6 +5,6 @@ public abstract class Course {
     public abstract String getCourseCode();
 
     public String toString() {
-        return  "Course Name:" + getCourseName() + "Course Code:" + getCourseCode();
+        return  ">>> Course Name: '" + getCourseName() + "', Course Code: '" + getCourseCode() + "'";
     }
 }

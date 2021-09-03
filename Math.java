@@ -9,7 +9,7 @@ public class Math extends Course{
         courses.put("MTH110", "Discrete Mathematics I");
         courses.put("MTH207", "Calculus and Computational Methods I");
         courses.put("MTH108", "Linear Algebra");
-        courseCode = this.courseCode;
+        this.courseCode = courseCode;
         courseName = courses.get(courseCode.toUpperCase());
     }
 

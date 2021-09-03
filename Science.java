@@ -9,7 +9,7 @@ public class Science extends Course {
         courses.put("BLG143", "Biology I");
         courses.put("CHY103", "General Chemistry I");
         courses.put("PCS110", "Physics");
-        courseCode = this.courseCode;
+        this.courseCode = courseCode;
         courseName = courses.get(courseCode.toUpperCase());
     }
 

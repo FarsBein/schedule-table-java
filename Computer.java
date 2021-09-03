@@ -9,7 +9,7 @@ public class Computer extends Course{
         courses.put("CPS109", "Computer Science I");
         courses.put("CPS213", "Computer Organization I");
         courses.put("CPS310", "Computer Organization II");
-        courseCode = this.courseCode;
+        this.courseCode = courseCode;
         courseName = courses.get(courseCode.toUpperCase());
     }
 

@@ -7,10 +7,10 @@ public class Art extends Course{
 
     public Art(String courseCode) {
         courses.put("ANT100", "Introduction to Anthropology");
-        courses.put("ARB 101", "Introductory Arabic I");
-        courses.put("ARB 201", "Introductory Arabic II");
+        courses.put("ARB101", "Introductory Arabic I");
+        courses.put("ARB201", "Introductory Arabic II");
 
-        courseCode = this.courseCode;
+        this.courseCode = courseCode;
         courseName = courses.get(courseCode.toUpperCase());
     }
 
